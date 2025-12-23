@@ -1,0 +1,40 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 0px;
+  margin-bottom: 15px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+}
+
+.logo img{
+  width: 70px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.docs {
+    display: flex;
+    justify-content: flex-end;
+    gap: 35px;
+    align-items: center;
+}
+
+.docs a {
+    text-decoration: none;
+    color: #2f88ff;
+    font-size: 18px;
+}
+
+.docs a:hover {
+    color: red;
+    text-decoration: underline;
+}

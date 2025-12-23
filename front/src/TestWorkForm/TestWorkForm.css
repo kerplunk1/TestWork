@@ -1,0 +1,42 @@
+.box {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 25px;
+    padding: 25px;
+    border: 1px solid #9a9a9a;
+    border-radius: 7px;
+    gap: 20px;
+
+}
+
+.input-fields {
+    width: 500px;
+}
+
+.input-fields > div {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+}
+
+.message {
+    margin-top: 20px;
+}
+
+
+.file {
+    margin-top: 20px;
+}
+
+.response-fields {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #c4c4c4;
+    border-radius: 7px;
+    padding: 10px;
+}
+
+.response-fields > p {
+    word-break: break-all;
+}

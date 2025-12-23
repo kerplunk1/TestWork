@@ -1,0 +1,15 @@
+services:
+  green-api-testwork:
+    image: python:3.13.7-slim-trixie
+    container_name: green-api-testwork
+    restart: always
+    working_dir: /app/back
+    ports:
+      - "8044:8044"
+    volumes:
+      - ./:/app
+    command: bash -c "
+      pip install --no-cache-dir -r requirements.txt ;
+      uvicorn src.main:app --host 0.0.0.0 --port 8044"
+    
+
