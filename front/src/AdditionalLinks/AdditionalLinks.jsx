@@ -23,7 +23,7 @@ export default function AdditionallLinks () {
               
               <TableRow>
                 <TableCell className='attr-title'><b>Мое резюме</b></TableCell>
-                <TableCell><a href={`${API_URL}/api/get-file/Шайдуллин Александр Валерьевич.pdf`}>Ссылка на мое резюме.pdf</a></TableCell>
+                <TableCell><a href={`${API_URL}/api/get-file/Шайдуллин Александр Валерьевич.pdf`}>Шайдуллин Александр Валерьевич.pdf</a></TableCell>
               </TableRow>
 
               <TableRow>
@@ -32,18 +32,18 @@ export default function AdditionallLinks () {
               </TableRow>
             
               <TableRow>
-                <TableCell className='attr-title'><b>Ссылка на репзиторий GitHub</b></TableCell>
-                <TableCell><a href="">Ссылка на репзиторий GitHub</a></TableCell>
+                <TableCell className='attr-title'><b>Репозиторий GitHub</b></TableCell>
+                <TableCell><a href="https://github.com/kerplunk1/TestWork">https://github.com/kerplunk1/TestWork</a></TableCell>
               </TableRow>
 
               <TableRow>
                 <TableCell className='attr-title'><b>Ссылка на опубликованную в интернете HTML страницу</b></TableCell>
-                <TableCell><a href="">Ссылка на опубликованную в интернете HTML страницу</a></TableCell>
+                <TableCell><a href="https://testwork.cynepsonic.keenetic.pro/">https://testwork.cynepsonic.keenetic.pro/</a></TableCell>
               </TableRow>
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
-                <TableCell className='attr-title'><b>Ссылка на видео-презентацию</b></TableCell>
-                <TableCell><a href={`${API_URL}/api/get-file/GTA_gameplay.mov`}>Ссылка на видео-презентацию</a></TableCell>
+                <TableCell className='attr-title'><b>Видео-презентация</b></TableCell>
+                <TableCell><a href={`${API_URL}/api/get-file/Шайдуллин Александр Валерьевич.mp4`}>Шайдуллин Александр Валерьевич.mp4</a></TableCell>
               </TableRow>
             
             </TableBody>
