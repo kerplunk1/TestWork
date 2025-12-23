@@ -23,27 +23,27 @@ export default function AdditionallLinks () {
               
               <TableRow>
                 <TableCell className='attr-title'><b>Мое резюме</b></TableCell>
-                <TableCell><a href={`${API_URL}/api/get-file/Шайдуллин Александр Валерьевич.pdf`}>Шайдуллин Александр Валерьевич.pdf</a></TableCell>
+                <TableCell><a href={`${API_URL}/get-file/Шайдуллин Александр Валерьевич.pdf`} target="_blank">Шайдуллин Александр Валерьевич.pdf</a></TableCell>
               </TableRow>
 
               <TableRow>
                 <TableCell className='attr-title'><b>Telegram</b></TableCell>
-                <TableCell><a href="https://t.me/cynepsonic">https://t.me/cynepsonic</a></TableCell>
+                <TableCell><a href="https://t.me/cynepsonic" target="_blank">https://t.me/cynepsonic</a></TableCell>
               </TableRow>
             
               <TableRow>
                 <TableCell className='attr-title'><b>Репозиторий GitHub</b></TableCell>
-                <TableCell><a href="https://github.com/kerplunk1/TestWork">https://github.com/kerplunk1/TestWork</a></TableCell>
+                <TableCell><a href="https://github.com/kerplunk1/TestWork" target="_blank">https://github.com/kerplunk1/TestWork</a></TableCell>
               </TableRow>
 
               <TableRow>
                 <TableCell className='attr-title'><b>Ссылка на опубликованную в интернете HTML страницу</b></TableCell>
-                <TableCell><a href="https://testwork.cynepsonic.keenetic.pro/">https://testwork.cynepsonic.keenetic.pro/</a></TableCell>
+                <TableCell><a href="https://testwork.cynepsonic.keenetic.pro/" target="_blank">https://testwork.cynepsonic.keenetic.pro/</a></TableCell>
               </TableRow>
 
               <TableRow sx={{ '&:last-child td, &:last-child th': { border: 0 } }}>
                 <TableCell className='attr-title'><b>Видео-презентация</b></TableCell>
-                <TableCell><a href={`${API_URL}/api/get-file/Шайдуллин Александр Валерьевич.mp4`}>Шайдуллин Александр Валерьевич.mp4</a></TableCell>
+                <TableCell><a href={`${API_URL}/get-file/Шайдуллин Александр Валерьевич.mp4`} target="_blank">Шайдуллин Александр Валерьевич.mp4</a></TableCell>
               </TableRow>
             
             </TableBody>

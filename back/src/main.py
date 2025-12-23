@@ -48,7 +48,7 @@ async def send_file_by_url(r: SendFileByUrlModel):
     return response
 
 
-@app.get("/api/get-file/{filename}")
+@app.get("/get-file/{filename}")
 async def get_file(filename: str):
     BASE_DIR = Path(os.getcwd()) / "files"
     file_path = (BASE_DIR / filename).resolve()
